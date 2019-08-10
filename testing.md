@@ -1,4 +1,4 @@
-.center.middle
+
 ## Step by step
 1. Create the ipynb file
 
