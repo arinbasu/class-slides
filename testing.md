@@ -2,7 +2,7 @@ class: center, middle
 # Lecture
 
 ---
-class: center
+class: center, middle
 ## Step by step
 
 1. Create the ipynb file
@@ -186,6 +186,8 @@ class: center, middle
 
 
 ---
-class: center
+class: center, middle
+
+## Graph
 ![png](testing_files/testing_5_0.png)
 
