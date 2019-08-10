@@ -1,28 +1,28 @@
-
+.center.middle
 ## Step by step
 1. Create the ipynb file
+
+--
+
 2. Convert the ipynb file to markdown
+
+--
+
 3. Add the slide demarkers
+
+--
+
 4. Upload to the github repo
-5. View
+
+--
+
+5. View the slide show
+
+
 ---
 
+```html
 
-```python
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import ipywidgets as widgets
-#from ipywidgets import output, interact
-from bokeh.plotting import figure
-from bokeh.io import output_notebook, show
-
-```
----
-
-```python
-%%writefile testing.html
 <!DOCTYPE html>
 <html>
   <head>
