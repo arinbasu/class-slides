@@ -19,7 +19,7 @@ from bokeh.plotting import figure
 from bokeh.io import output_notebook, show
 
 ```
-
+---
 
 ```python
 %%writefile testing.html
@@ -60,20 +60,8 @@ class: center, middle
 </html>
 
 ```
-
-    Writing testing.html
-
-
-
-```python
-# read some data
-data = pd.read_csv("https://gist.githubusercontent.com/ZeccaLehn/4e06d2575eb9589dbe8c365d61cb056c/raw/898a40b035f7c951579041aecbfb2149331fa9f6/mtcars.csv")
-```
-
-
-```python
-data.head()
-```
+---
+    
 
 
 
@@ -191,18 +179,7 @@ data.head()
 </div>
 
 
-
-
-```python
-%matplotlib inline
-plt.scatter(data['disp'], data['mpg'])
-plt.xlabel('Engine size')
-plt.ylabel('Miles per gallon')
-plt.title('Engine size vs MPG')
-plt.savefig('dispmpg.png')
-plt.show()
-```
-
+---
 
 ![png](testing_files/testing_5_0.png)
 
